@@ -2,6 +2,6 @@ export function successResponse(data: any) {
     return { success: true, data };
 }
 
-export function failureResponse(message: any) {
+export function errorResponse(message: any) {
     return { success: false, message };
 }
